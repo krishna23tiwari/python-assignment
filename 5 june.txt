@@ -1,0 +1,98 @@
+1) sunday to saturday print by user input
+
+a = int(input("enter number"))
+if(a == 1):
+    print("sunday")
+elif(a == 2):
+    print("monday")
+elif(a == 3):
+    print("tuesday")    
+elif(a == 4):
+    print("wednesday")
+elif(a == 5):
+    print("thrusday")
+elif(a == 6):
+    print("friday")
+elif(a == 7):
+    print("saturday")
+else:
+    print("wrong input")
+
+2) december to january print by user input
+
+a = int(input("enter number"))
+if(a == 1):
+    print("december")
+elif(a == 2):
+    print("november")
+elif(a == 3):
+    print("octomber")    
+elif(a == 4):
+    print("september")
+elif(a == 5):
+    print("august")
+elif(a == 6):
+    print("july")
+elif(a == 7):
+    print("june")
+elif(a == 8):
+    print("may")
+elif(a == 9):
+    print("april")
+elif(a == 10):
+    print("march")
+elif(a == 11):
+    print("febuary")
+elif(a == 12):
+    print("january")
+    
+
+else:
+    print("wrong input")
+
+3) 
+
+a> 60 = average
+70 to 80 = good
+81 to 90 = very good
+>91 = excellent
+other = fail
+
+
+a = int(input("enter number "))
+if(a>60 and a<70):
+  print("average")
+elif(a>70 and a<80):
+  print("good")
+elif(a>80 and a<90):
+  print("very good")
+elif(a>90):
+  print("excellent")
+else:
+  print("fail")
+
+4) 
+1) make a folder on desktop
+
+import os
+os.chdir(r"C:\\Users\\dell\\Desktop")
+os.mkdir("python folder 2")
+
+2) create a file
+
+import os
+file = open("C:\\Users\\dell\\Desktop\\python folder\\a.txt", "w")
+file.write("hello world")
+file.close()
+
+3) system close
+
+import os
+choice = input("shutdown pc(y or n)")
+if(choice == 'y' or choice == 'Y'):
+    os.system("shutdown /s /t 30")
+else:
+    print("exiting the program")
+
+
+
